@@ -10,7 +10,8 @@ import { Hero } from './hero';
 // To define a component, you always import the Component symbol.
 @Component({
   selector: 'hero-detail',
-  templateUrl: './hero-detail.component.html'
+  templateUrl: './hero-detail.component.html',
+  styleUrls: ['./hero-detail.component.css']
 })
 // Always export the component class because you'll always import it elsewhere.
 export class HeroDetailComponent implements OnInit {
