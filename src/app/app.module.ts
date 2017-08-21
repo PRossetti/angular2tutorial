@@ -14,13 +14,15 @@ import { HeroDetailComponent } from './hero-detail.component';
 import { HeroesComponent } from './heroes.component';
 import { DashboardComponent } from './dashboard.component';
 import { HeroService } from './hero.service';
+import { HeroSearchComponent } from './hero-search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroDetailComponent,
     HeroesComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeroSearchComponent
   ],
   imports: [
     BrowserModule,
